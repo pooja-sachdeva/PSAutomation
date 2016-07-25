@@ -29,3 +29,8 @@ Then /^I Login in Gmail as me$/ do
 
 end
 
+Then /^I Launch the website$/ do
+  driver = $driver
+  driver.get "https://www.skyscanner.net"
+
+end
